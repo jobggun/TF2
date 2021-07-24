@@ -7,9 +7,9 @@
 A re-imagining of the 2008 era of the original Team Fortress 2, adding in old features that were scrapped and working upon them or adding new content such as weapons and game modes.
 This Docker image contains the dedicated server of the game.
 
-> [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/)
+> [TF2 Classic](https://tf2classic.com/)
 
-<img src="https://1000logos.net/wp-content/uploads/2020/09/Team-Fortress-2-logo.png" alt="logo" width="300"/></img>
+<img src="https://wiki.teamfortress.com/w/images/thumb/8/8e/Team_Fortress_2_Classic.png/1200px-Team_Fortress_2_Classic.png" alt="Team Fortress 2 Classic.png">
 
 # How to use this image
 
@@ -72,4 +72,4 @@ The `tf2c` images come in three flavors, each designed for a specific use case.
 This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is a bare-minimum TF2 dedicated server containing no 3rd party plugins.<br/>
 
 # Contributors
-[![Contributors Display](https://badges.pufler.dev/contributors/CM2Walki/tf2?size=50&padding=5&bots=false)](https://github.com/CM2Walki/tf2/graphs/contributors)
+[![Contributors Display](https://badges.pufler.dev/contributors/jobggun/tf2c?size=50&padding=5&bots=false)](https://github.com/jobggun/tf2c/graphs/contributors)

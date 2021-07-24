@@ -9,6 +9,7 @@ ENV STEAMAPPID 244310
 ENV STEAMAPP tf2classic
 ENV STEAMAPPDIR "${HOMEDIR}/${STEAMAPP}-dedicated"
 ENV DLURL https://raw.githubusercontent.com/jobggun/TF2
+ENV TF2CLASSICDLURL https://files.moevsmachine.tf/tf2classic_full_2-0-3_linux.zip
 
 # Run Steamcmd and install TF2
 # Create autoupdate config
@@ -28,8 +29,9 @@ RUN set -x \
 		libcurl3-gnutls:i386 \
 		libcurl3-gnutls \
 		libarchive13 \
-		p7zip-full \
-	&& mkdir -p "${STEAMAPPDIR}" \
+		p7zip-full
+
+RUN mkdir -p "${STEAMAPPDIR}" \
 	&& wget "${DLURL}/master/entry.sh" -O "${HOMEDIR}/entry.sh" \
 	&& { \
 		echo '@ShutdownOnFailedCommand 1'; \
