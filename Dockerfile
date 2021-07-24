@@ -26,6 +26,9 @@ RUN set -x \
 		lib32stdc++6 \
 		libtinfo5:i386 \
 		libcurl3-gnutls:i386 \
+		libcurl3-gnutls \
+		libarchive13 \
+		p7zip-full \
 	&& mkdir -p "${STEAMAPPDIR}" \
 	&& wget "${DLURL}/master/entry.sh" -O "${HOMEDIR}/entry.sh" \
 	&& { \
@@ -49,10 +52,9 @@ ENV SRCDS_FPSMAX=300 \
 	SRCDS_MAXPLAYERS=16 \
 	SRCDS_TOKEN=0 \
 	SRCDS_RCONPW="changeme" \
-	SRCDS_PW="changeme" \
+	SRCDS_PW="" \
 	SRCDS_STARTMAP="ctf_2fort" \
 	SRCDS_REGION=3 \
-    SRCDS_HOSTNAME="New \"${STEAMAPP}\" Server" \
     SRCDS_WORKSHOP_START_MAP=0 \
     SRCDS_HOST_WORKSHOP_COLLECTION=0 \
     SRCDS_WORKSHOP_AUTHKEY=""

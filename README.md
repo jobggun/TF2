@@ -1,12 +1,10 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`latest` (*buster/Dockerfile*)](https://github.com/CM2Walki/TF2/blob/master/buster/Dockerfile)
-- [`metamod` (*buster-metamod/Dockerfile*)](https://github.com/CM2Walki/TF2/blob/master/buster-metamod/Dockerfile)
-- [`sourcemod` (*buster-sourcemod/Dockerfile*)](https://github.com/CM2Walki/TF2/blob/master/buster-sourcemod/Dockerfile)
+- [`latest` (*Dockerfile*)](https://github.com/jobggun/TF2C/blob/master/Dockerfile)
 
 # What is Team Fortress 2 Classic?
 
-Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!
+A re-imagining of the 2008 era of the original Team Fortress 2, adding in old features that were scrapped and working upon them or adding new content such as weapons and game modes.
 This Docker image contains the dedicated server of the game.
 
 > [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/)
