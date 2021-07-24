@@ -10,7 +10,7 @@ bash "${STEAMCMDDIR}/steamcmd.sh" \
 # If TF2 Classic app does not exist, then It stops container.
 if [ ! -d "${STEAMAPPDIR}/${STEAMAPP}" ]; then
     echo Installing TF2 Classic game mod
-	wget -q -O tf2classic.zip "https://files.moevsmachine.tf/tf2classic_full_2-0-3_linux.zip"
+	wget -O tf2classic.zip "https://files.moevsmachine.tf/tf2classic_full_2-0-3_linux.zip"
     7za x tf2classic.zip
     chown -R "${USER}:${USER}" tf2classic
     chmod +x tf2classic/tf2c-updater
