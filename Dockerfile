@@ -8,7 +8,7 @@ LABEL maintainer="walentinlamonos@gmail.com"
 ENV STEAMAPPID 244310
 ENV STEAMAPP tf2classic
 ENV STEAMAPPDIR "${HOMEDIR}/${STEAMAPP}-dedicated"
-ENV DLURL https://raw.githubusercontent.com/jobggun/TF2
+ENV DLURL https://raw.githubusercontent.com/jobggun/TF2C
 ENV TF2CLASSICDLURL https://files.moevsmachine.tf/tf2classic_full_2-0-3_linux.zip
 
 # Run Steamcmd and install TF2
